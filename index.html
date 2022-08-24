@@ -2,6 +2,7 @@
 
 <head>
     <title>Maze Solver</title>
+    <meta name="description" content="Maze Solver">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -19,14 +20,22 @@
     <div class="column column-right">
     <h1>Controls</h1>
     <p>
-        <strong>WASD</strong> - Move<br>
-        <strong>Space</strong> - Solve<br>
-        <strong>R</strong> - Reset<br>
-        <strong>P</strong> - Pause<br>
-        <strong>Esc</strong> - Exit<br>
+    <!--- Create a radio button for each algorithm: DFS, BFS, A* -->
+    <label class="form-control">
+        <input type="radio" name="radio" value="DFS" checked/>
+        DFS
+      </label>
+        <label class="form-control">
+            <input type="radio" name="radio" value="BFS"/>
+            BFS
+        </label>
+        <label class="form-control">
+            <input type="radio" name="radio" value="A*"/>
+            A*
+        </label>
     </p>
-    <button id="reset" class="button">Reset</button>
-    <button id="solve" class="button">Solve</button>
+    <button id="reset-button" class="button">Reset</button>
+    <button id="solve-button" class="button">Solve</button>
     </div></div>
 </body>
 <script src="dist/bundle.js"></script>

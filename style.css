@@ -1,3 +1,21 @@
+body {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
 .table {
     width: 100%;
     display: flex;
@@ -18,3 +36,43 @@
 .column-right {
     margin-right: auto;
 }
+
+button {
+    background-color: #17788e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-control {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+  }
+  input[type="radio"]::before {
+    /* ...existing styles */
+  
+    /* Windows High Contrast Mode */
+    background-color: #000;
+  }
