@@ -1,0 +1,20 @@
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+
+.column {
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-left {
+    margin-left: auto;
+}
+
+.column-right {
+    margin-right: auto;
+}

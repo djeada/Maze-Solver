@@ -1,13 +1,33 @@
 <html>
 
 <head>
-    <title>TypeScript-Webpack-Boilerplate</title>
+    <title>Maze Solver</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    
+    <div class="table">
+    <div class="column column-left">
+    <h1>Maze Solver</h1>
     <!--- Create a Canvas element -->
-    <canvas id="canvas" width="401" height="401"></canvas>
+    <canvas id="canvas" width="601" height="601"></canvas>
+    </div>
+
+    <div class="column column-right">
+    <h1>Controls</h1>
+    <p>
+        <strong>WASD</strong> - Move<br>
+        <strong>Space</strong> - Solve<br>
+        <strong>R</strong> - Reset<br>
+        <strong>P</strong> - Pause<br>
+        <strong>Esc</strong> - Exit<br>
+    </p>
+    <button id="reset" class="button">Reset</button>
+    <button id="solve" class="button">Solve</button>
+    </div></div>
 </body>
 <script src="dist/bundle.js"></script>
 
