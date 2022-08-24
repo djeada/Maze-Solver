@@ -1,5 +1,5 @@
 {
-  "name": "typescript-webpack-minimal",
+  "name": "maze-solver",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
