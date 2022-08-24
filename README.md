@@ -1,6 +1,6 @@
-# Webpack Minimal
-A bare-bones webpack setup for creating a single-page application.
-It is easily extensible and customizable.
+# Maze Solver
+Maze Solver generates a grid with random walls and gives the user an option to choose a starting point and an end point. 
+Then depending on selected algorithm, the program will solve the maze and display the path. 
 
 ![Capture](https://user-images.githubusercontent.com/37275728/186530827-c92b24e9-32e0-4e3d-8c83-445791c0964d.PNG)
 
