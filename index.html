@@ -9,34 +9,35 @@
 </head>
 
 <body>
-    
-    <div class="table">
-    <div class="column column-left">
-    <h1>Maze Solver</h1>
-    <!--- Create a Canvas element -->
-    <canvas id="canvas" width="601" height="601"></canvas>
-    </div>
 
-    <div class="column column-right">
-    <h1>Controls</h1>
-    <p>
-    <!--- Create a radio button for each algorithm: DFS, BFS, A* -->
-    <label class="form-control">
-        <input type="radio" name="radio" value="DFS" checked/>
-        DFS
-      </label>
-        <label class="form-control">
-            <input type="radio" name="radio" value="BFS"/>
-            BFS
-        </label>
-        <label class="form-control">
-            <input type="radio" name="radio" value="A*"/>
-            A*
-        </label>
-    </p>
-    <button id="reset-button" class="button">Reset</button>
-    <button id="solve-button" class="button">Solve</button>
-    </div></div>
+    <div class="table">
+        <div class="column column-left">
+            <h1>Maze Solver</h1>
+            <!--- Create a Canvas element -->
+            <canvas id="canvas" width="601" height="601"></canvas>
+        </div>
+
+        <div class="column column-right">
+            <h1>Controls</h1>
+            <p>
+                <!--- Create a radio button for each algorithm: DFS, BFS, A* -->
+                <label class="form-control">
+                    <input type="radio" name="radio" value="DFS" checked />
+                    DFS
+                </label>
+                <label class="form-control">
+                    <input type="radio" name="radio" value="BFS" />
+                    BFS
+                </label>
+                <label class="form-control">
+                    <input type="radio" name="radio" value="A*" />
+                    A*
+                </label>
+            </p>
+            <button id="reset-button" class="button">Reset</button>
+            <button id="solve-button" class="button">Solve</button>
+        </div>
+    </div>
 </body>
 <script src="dist/bundle.js"></script>
 
