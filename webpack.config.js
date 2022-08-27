@@ -23,7 +23,7 @@ module.exports = {
 
         // tell where your index.html is located
         static: {
-            directory: path.join(__dirname, '.')
+            directory: path.join(__dirname, 'public')
         },
 
         // enable compression
